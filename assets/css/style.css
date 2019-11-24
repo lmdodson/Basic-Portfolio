@@ -1,0 +1,39 @@
+#header {
+    /* position: absolute; /* 
+    allows following blocks to go behind it; top right bottom left*/
+    /* position: fixed; /*
+    allows following blocks to go behind it*/
+    /*position: relative;/*
+    keeps following blocks in position*/
+   background: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+#menu {
+    background: red;
+    width: 100px;
+    height: 100px;  
+}
+
+#name {
+    background: blue;
+    width: 35px;
+    height: 35px;
+}
+
+#wrapper {
+    background: purple;
+    width: 600px;
+    height: 400px;
+}
+
+#content {
+    background: dodgerblue;
+    width: 300px;
+    height: 150px;
+}
+
+.hr {
+    width: 600px;
+}
