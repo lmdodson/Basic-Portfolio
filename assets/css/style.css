@@ -3,35 +3,46 @@
     allows following blocks to go behind it; top right bottom left*/
     /* position: fixed; /*
     allows following blocks to go behind it*/
-    /*position: relative;/*
+    position: relative;/*
     keeps following blocks in position*/
    background: yellow;
-    width: 200px;
-    height: 200px;
+    width: 690px;
+    height: 100px;
 }
 
-#menu {
+#header-menu {
+    float: right;
     background: red;
-    width: 100px;
-    height: 100px;  
+    width: auto;
+    height: auto; 
 }
 
 #name {
-    background: blue;
-    width: 35px;
+    position: absolute; 
+    left: 200px;
+    bottom: 0;  
+    padding: 15px; 
+    width: 59px;
     height: 35px;
+    background: blue;
+
 }
 
-#wrapper {
+#wrapper {   
+    position: absolute;
     background: purple;
-    width: 600px;
+    width: 690px;
     height: 400px;
+    text-align: left;
 }
 
 #content {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 50px;
     background: dodgerblue;
-    width: 300px;
-    height: 150px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .hr {
