@@ -1,50 +1,74 @@
 #header {
-    /* position: absolute; /* 
-    allows following blocks to go behind it; top right bottom left*/
-    /* position: fixed; /*
-    allows following blocks to go behind it*/
-    position: relative;/*
-    keeps following blocks in position*/
-   background: yellow;
-    width: 690px;
+    position: relative;
+    background: yellow;
+    width: 960px;
     height: 100px;
 }
 
 #header-menu {
+    /*position: absolute;*/
+    right: 0;
     float: right;
-    background: red;
-    width: auto;
-    height: auto; 
+    bottom: 0;
+    display: inline;
+    background: red; 
 }
 
 #name {
     position: absolute; 
-    left: 200px;
+    left: 145px;
     bottom: 0;  
-    padding: 15px; 
-    width: 59px;
-    height: 35px;
+    padding: 20px; 
+    width: fit-content;
+    height: fit-content;
     background: blue;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 #wrapper {   
     position: absolute;
     background: purple;
-    width: 690px;
-    height: 400px;
+    width: 960px;
+    height: 100%;
     text-align: left;
 }
 
 #content {
     position: absolute;
     margin-top: 35px;
-    margin-left: 50px;
+    margin-left: 145px;
+    padding: 35px;
     background: dodgerblue;
     width: fit-content;
     height: fit-content;
 }
 
+li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    border-right: #cccccc;
+    padding: 15px;
+
+}
+
+ul {
+    text-align: center;
+}
+
 .hr {
     width: 600px;
+}
+
+#footer {
+    position: fixed;
+    background: #666666;
+    width: 960px;
+    height: 100px;
+    bottom: 0;
 }
