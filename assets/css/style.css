@@ -6,13 +6,27 @@
 }
 
 #header-menu {
-    /*position: absolute;*/
+    position: absolute;
     right: 0;
-    float: right;
     bottom: 0;
     display: inline;
     background: red; 
 }
+a {
+    text-decoration: none;
+    list-style: none;
+    border-right: #cccccc;   
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+ul {
+    text-align: center;
+}
+
 
 #name {
     position: absolute; 
@@ -46,19 +60,6 @@ h1 {
     background: dodgerblue;
     width: fit-content;
     height: fit-content;
-}
-
-li {
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    border-right: #cccccc;
-    padding: 15px;
-
-}
-
-ul {
-    text-align: center;
 }
 
 .hr {
