@@ -27,8 +27,11 @@ a:active {
 li {
     display: inline-block;
     padding: 15px;
-    border-right-style: inset;
+    border-right: solid #dddddd;
+}
 
+#menu-contact {
+    border: none;
 }
 
 ul {
@@ -80,18 +83,12 @@ h1 {
     padding: 35px;
     background: #ffffff;
     width: 600px;
-    /* width: fit-content; */
     height: fit-content;
 }
 
 .hr {
     width: 600px;
     float: left;
-}
-
-#p1 {
-    /*padding-left: 15px;*/
-   float: left;
 }
 
 #footer {
