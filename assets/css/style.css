@@ -1,11 +1,18 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+/* header wrapper */
+#header-wrapper {
+    position: relative;
+    width: 100%;
+    border-bottom: solid medium #cccccc;
+    background: #ffffff;
+
 }
 /* header banner */
 .header {
     position: relative;
-    background: #ffffff;
-    border-bottom: solid medium #cccccc;
     width: 960px;
     /* width: 100%; */
     height: 100px;
@@ -16,11 +23,11 @@
 #header-menu {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 10px;
     display: inline;
 }
 
-a {
+a {   
     text-decoration: none;
     list-style: none;  
 }
@@ -28,6 +35,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* a:visited {
+    color: #777777;
+} */
 
 li {
     display: inline-block;
@@ -55,11 +66,19 @@ ul {
     color: #ffffff;
     font-weight: 600;
     text-align: center;
+    font-size: 1.5em;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 #wrapper {   
@@ -69,6 +88,7 @@ h1 {
     /* width: 960px; */
     width: 100%;
     height: 100%;
+    overflow: auto;
 }
 
 #profile-photo {
@@ -89,7 +109,7 @@ h1 {
     padding: 30px;
     background: #ffffff;
     width: 900px;
-    height: fit-content;
+    /* height: fit-content; */
     min-height: 500px;
     text-align: left;
     border: #dddddd;
@@ -97,7 +117,7 @@ h1 {
 
 /* horizontal line element */
 .hr {
-    width: 600px;
+    width: 900px;
     float: left;
 }
 
@@ -161,4 +181,8 @@ input[type=submit] {
     cursor: pointer;
     float: left;
     bottom: 10px;
+  }
+
+  input[type=submit]:hover {
+      background: darkslategrey;
   }
