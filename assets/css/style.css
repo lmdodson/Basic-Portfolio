@@ -12,12 +12,14 @@
     background: #ffffff;
 
 }
+
 /* header banner */
 .header {
     position: relative;
-    width: 960px; 
+    width: 960px;
     height: 100px;
-    margin: 0 auto; /* this line centers the element*/
+    margin: 0 auto;
+    /* this line centers the element*/
 }
 
 /* navigation menu */
@@ -29,17 +31,21 @@
 }
 
 /* navigational links */
-a {   
-    text-decoration: none; /* removes the underline from link */
-    list-style: none; /*removes the bullets from the list items */
+a {
+    text-decoration: none;
+    /* removes the underline from link */
+    list-style: none;
+    /*removes the bullets from the list items */
 }
 
 a:hover {
-    text-decoration: underline; /* applies underline to link when mouse-over" */
+    text-decoration: underline;
+    /* applies underline to link when mouse-over" */
 }
 
 a:active {
-    color: #4aaaa5; /* applies teal color to link when being clicked */
+    color: #7c0c5a;
+    /* applies teal color to link when being clicked */
 }
 
 /* navigational list items */
@@ -50,15 +56,16 @@ li {
 }
 
 #li-contact {
-    border: none; /*removes the border from the contact page link*/
+    border: none;
+    /*removes the border from the contact page link*/
 }
 
 /* Name block within the header */
 #name {
-    position: absolute; 
-    bottom: 0;  
-    padding: 30px; 
-    background: #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    background: #ac1c81;
     color: #ffffff;
     font-weight: 600;
     text-align: center;
@@ -68,7 +75,7 @@ li {
 /*generic heading formats*/
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #ac1c81;
     display: block;
     font-size: 1.5em;
     margin-top: 0.67em;
@@ -79,7 +86,7 @@ h1 {
 }
 
 /*generic wrapper for all pages*/
-#wrapper {   
+#wrapper {
     position: absolute;
     background: url(../images/Background_Swirls.png);
     background-repeat: repeat;
@@ -107,7 +114,7 @@ h1 {
     text-align: left;
     border: #dddddd;
     border-style: solid;
-    box-shadow: 1.5px 3px;
+    box-shadow: .5em 1em;
 }
 
 /* horizontal line element */
@@ -120,10 +127,10 @@ h1 {
 #footer {
     position: fixed;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #7c0c5a;
     width: 100%;
     height: 45px;
-    bottom: 0;   
+    bottom: 0;
     text-align: center;
 
 }
@@ -159,10 +166,10 @@ h1 {
 /* banner across portfolio photos */
 .folio-banner {
     position: absolute;
-    background: #4aaaa5;
+    background: #ac1c81;
     text-align: center;
     bottom: 10px;
-    width: 170px;    
+    width: 170px;
     padding: 15px;
 }
 
@@ -174,7 +181,8 @@ h1 {
 }
 
 /* Contact Form  */
-input[type=text], textarea {
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #dddddd;
@@ -183,10 +191,11 @@ input[type=text], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
+
 /* submit button */
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #ac1c81;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -194,8 +203,9 @@ input[type=submit] {
     cursor: pointer;
     float: left;
     bottom: 10px;
-  }
+}
 
-  input[type=submit]:hover {
-      background: darkslategrey; /*applies darkened color to button when mouse-over*/
-  }
+input[type=submit]:hover {
+    background: rgb(229, 181, 241);
+    /*applies darkened color to button when mouse-over*/
+}
